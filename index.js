@@ -1,11 +1,11 @@
 // Code your solution in this file!
 
-const headquarters = 42 
+const headquarters = 42
 
 
 function distanceFromHqInBlocks(distance){
-  let value = distance - headquarters 
-  return value 
-  
-  
+  let value = Math.abs(distance - headquarters)
+  return value
+
+
 }
