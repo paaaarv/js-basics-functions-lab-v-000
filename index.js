@@ -19,3 +19,15 @@ function distanceTravelledInFeet(first, second){
   return newValue
 
 }
+
+function calculatesFarePrice(first,second){
+  let price;
+  let newValue = distanceTravelledInFeet(first,second)
+  if (newValue >2500){
+    return "cannot travel that far."
+  }else if (newValue >2000){
+    price = (newValue-400) *.02
+  }else if (newValue >400){
+    price = (newValue - 400) * .02
+  }
+}
