@@ -30,4 +30,5 @@ function calculatesFarePrice(first,second){
   }else if (newValue >400){
     price = (newValue - 400) * .02
   }
+  
 }
