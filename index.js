@@ -29,6 +29,7 @@ function calculatesFarePrice(first,second){
     price = (newValue-2000) *25
     return price
   }else if (newValue >=400){
+    price = newValue * .02
     return price
   }else if (newValue <400){
     price = 0
