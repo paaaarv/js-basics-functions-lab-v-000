@@ -26,7 +26,7 @@ function calculatesFarePrice(first,second){
   if (newValue >2500){
     return "cannot travel that far"
   }else if (newValue >2000){
-    price = (newValue-2000) *25
+    price = 25
     return price
   }else if (newValue >=400){
     price = newValue * .02
